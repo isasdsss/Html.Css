@@ -1,0 +1,26 @@
+body{
+    background-color: #7A4625;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+p{
+    color: antiquewhite;
+}
+#titulo{
+    background-color: #FB8F4B;
+    color: #7A2F00;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    height: 50px;
+}
+.Raça{
+    color: rgb(251, 217, 157);
+}
+
+.primeiro{
+    color: #FB8F4B;
+}
+.segundo{
+    color: #FB8F4B;
+}

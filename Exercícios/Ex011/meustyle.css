@@ -1,0 +1,23 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+
+  @font-face {
+    font-family: Burguer;
+    src: url("Cheese Burger.otf" ) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: burguer;
+}
+
+p{
+    font-family: 'Cutive', serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+
