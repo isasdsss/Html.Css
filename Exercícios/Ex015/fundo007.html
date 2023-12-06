@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posiciomento div interna</title>
+
+<style>
+
+    #container{
+
+        background-image: url(img/imagens-cap19/target001.png) ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        position: relative;
+        height: 96vh;
+        background-color:darkmagenta;
+        padding: 10px;
+    }
+
+    #conteudo{
+
+        background-image: url(img/imagens-cap19/target001.png) ;
+        background-size: 100% 100% ;
+
+        position: absolute;
+        height: 300px;
+        width: 400px;
+        background-color: rgb(205, 169, 238);
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%,-50%);
+        
+
+    }
+</style>
+</head>
+<body>
+
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
