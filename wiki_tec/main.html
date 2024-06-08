@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WikiTech</title>
+    <link rel="stylesheet" href="wikistyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .image-container {
+            position: relative;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .image-text {
+            position: absolute;
+            bottom: 20px; /* Distância do texto até a parte inferior da imagem */
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            text-align: center;
+            width: 80%; /* Largura do texto */
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor legibilidade */
+            padding: 20px; /* Espaçamento interno do texto */
+        }
+    </style>
+
+  </head>
+  <body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+        <a class="navbar-brand" href="#">WikiTech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Principal</a>
+            <a class="nav-link" href="artigos.html">Artigos</a>
+            <a class="nav-link" href="novosartgs.html">Novos Artigos</a>
+        
+          </div> 
+        </div>
+          </div>
+        </nav>
+   </header>
+
+   <main>
+
+    <section>
+   
+            <div class="image-container">
+                <img src="https://th.bing.com/th/id/R.dddb72d44512ee2c01947e90edfbccd2?rik=JbVAU0rosMR7gQ&pid=ImgRaw&r=0" class="img-fluid" alt="Imagem de Boas-vindas">
+                <div class="image-text">
+                    <h1>Bem-vindo à Wiki</h1>
+                    <p>Colabore e compartilhe conhecimentos sobre tecnologia e história da computação.</p>
+                    <a class="btn btn-primary" href="artigos.html">Ver Artigos</a>
+                    <a class="btn btn-secondary" href="novosartgs.html">Novo Artigo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   </main>
+
+
+   <footer>
+    <p>Wiki - Todos os direitos reservados.</p>
+   </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
