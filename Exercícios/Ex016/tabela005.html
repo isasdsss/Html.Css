@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+       
+        td,th{
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        
+        }
+
+        .grey{
+            background-color: grey;
+        }
+
+        .blue{
+            background-color: rgb(217, 217, 243);
+        }
+
+
+    </style>
+</head>
+<body>
+    <table> 
+
+        <colgroup>
+        <col class="grey">
+        <col class="blue" span="3">
+        
+        </colgroup>
+        <caption>Cadrasto</caption>
+        
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Jannaia</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Professora</td>
+        </tr>
+
+        
+        <tr>
+            <td>Jeferson</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Professor</td>
+        </tr>
+
+        
+        <tr>
+            <td>fernanda</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Atleta</td>
+        </tr>
+
+        
+        <tr>
+            <td>Davi</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+
+    </table>
+</body>
+</html>
