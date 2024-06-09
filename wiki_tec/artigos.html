@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Artigos</title>
+    <link rel="stylesheet" href="wikistyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+        <a class="navbar-brand" href="#">WikiTech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="main.html">Principal</a>
+            <a class="nav-link" href="artigos.html">Artigos</a>
+            <a class="nav-link" href="novosartgs.html">Novos Artigos</a>
+        
+          </div> 
+        </div>
+          </div>
+        </nav>
+   </header>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Lista de Artigos</h1>
+        <div class="list-group">
+            <!-- Exemplo de artigo. Você pode adicionar quantos artigos quiser seguindo esta estrutura -->
+            <a href="https://www.techtudo.com.br/guia/2023/04/quem-foi-alan-turing-saiba-a-historia-do-pai-da-ciencia-da-computacao-edinfoeletro.ghtml" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">Quem foi Alan Turing? Saiba a história do pai da ciência da computação</h5>
+                <p class="mb-1">Um dos pioneiros no desenvolvimento da informática, o matemático também foi uma peça fundamental para vitória dos Aliados na Segunda Guerra Mundial. Veja a trajetória.</p>
+                <small>Publicado em: 29/04/2023 04h01</small>
+            </a>
+            <a href="https://www.ufmg.br/espacodoconhecimento/ada-lovelace-a-primeira-programadora-da-historia/" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">Ada Lovelace: A primeira programadora da história</h5>
+                <p class="mb-1">Conheça as extraordinárias contribuições de Ada para a ciência da computação</p>
+                <small>Publicado em: 11/06/2023</small>
+            </a>
+            <!-- Adicione mais artigos aqui -->
+            <div class="container mt-5">
+                <div class="list-group" id="article-list">
+                    <!-- Artigos serão adicionados aqui pelo JavaScript -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+  
+    <footer>
+        <p>@Wiki - Todos os direitos reservados.</p>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

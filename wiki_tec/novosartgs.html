@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Artigo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="wikistyle.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Wiki</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="artigos.html">Ver Artigos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="novosartgs.html">Novo Artigo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Criar Novo Artigo</h1>
+        <form id="new-article-form">
+            <div class="mb-3">
+                <label for="title" class="form-label">Título do Artigo</label>
+                <input type="text" class="form-control" id="title" placeholder="Digite o título do artigo" required>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Descrição</label>
+                <input type="text" class="form-control" id="description" placeholder="Digite uma breve descrição" required>
+            </div>
+            <div class="mb-3">
+                <label for="content" class="form-label">Conteúdo</label>
+                <textarea class="form-control" id="content" rows="10" placeholder="Digite o conteúdo do artigo" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Publicar Artigo</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Wiki - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
